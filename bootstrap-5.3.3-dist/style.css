@@ -1,0 +1,34 @@
+.button{
+  position: relative;
+  left: 100px;
+}
+.btn-outline-success{
+  position: relative;
+  left: 100px;
+}
+
+.carousel{
+  height: 75vh;
+}
+.carousel img{
+  height: 75vh;
+  object-fit: cover;
+}
+
+.carousel:after{
+  content:"";
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  background-color: black;
+  
+}
+
+.carosuel-caption{
+  top: 40%;
+}
+.carousel-caption{
+  top: 40%;
+}
