@@ -1,0 +1,49 @@
+.carousel-caption{
+    top: 40%;
+  }
+  .carousel{
+height: 75vh;
+}
+.carousel img{
+height: 75vh;
+object-fit: cover;
+}
+
+.carousel:after{
+content:"";
+position: absolute;
+top: 0%;
+bottom: 0%;
+left: 0%;
+right: 0%;
+background-color: rgba(0, 0, 0, 0.292);
+
+
+}
+.carousel-caption{
+z-index: 2;
+}
+.carousel-slide{
+    margin: 40px;
+}
+.image{
+   width: 110%;
+   height: 105%;
+   object-fit: contain;
+}
+.head{
+    color: green;
+}
+
+.effect{
+    filter: grayscale(0%);
+
+    transition: all 0,3 ease-in-out;
+}
+
+.effect:hover{
+    filter: grayscale(100%);
+    transform: scale(0.95);
+    border-color: blue;
+
+}
